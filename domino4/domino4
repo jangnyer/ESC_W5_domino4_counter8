@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# 사용할 GPIO 핀 배열
+pins=(12 16 20 21)
+
+# 모든 핀을 출력 모드로 설정
+for i in "${pins[@]}"; do
+  pinctrl set $i op
+done
+
+# 무한 반복
+while true; do
+  for i in "${pins[@]}"; do
+    pinctrl set $i dh  # 해당 핀 켜기
+    sleep 1
+    pinctrl set $i dl  # 해당 핀 끄기
+  done
+done

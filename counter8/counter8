@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# 사용할 GPIO 핀 배열
+pins=(12 16 20)
+
+# 핀들을 출력 모드로 설정
+for pin in "${pins[@]}"; do
+  pinctrl set $pin op
+done
+
+# 0~7까지 이진법으로 카운팅하여 LED 점등
+while true; do
+  for n in {0..7}; do
+    for i in {0..2}; do
+      bit=$(( (n >> i) & 1 ))
+      if [ "$bit" -eq 1 ]; then
+        pinctrl set ${pins[$i]} dh
+      else
+        pinctrl set ${pins[$i]} dl
+      fi
+    done
+    sleep 1
+  done
+done
