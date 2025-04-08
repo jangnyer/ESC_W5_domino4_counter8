@@ -6,7 +6,7 @@ GPIO 핀 12, 16, 20번을 사용합니다.
 
 ## 🔗 시연 영상
 
-[YouTube 영상 링크](https://youtu.be/your-video-link)  
+(https://youtu.be/C20O_CiGmZA?feature=shared)  
 
 
 ## 💡 회로 구성
