@@ -7,7 +7,7 @@ GPIO 핀 12, 16, 20번을 사용합니다.
 ## 🔗 시연 영상
 
 [YouTube 영상 링크](https://youtu.be/your-video-link)  
-(*포스트잇으로 이름을 붙이고, 핀맵과 코드 구조를 함께 설명함.*)
+
 
 ## 💡 회로 구성
 
@@ -28,7 +28,8 @@ GPIO 핀 12, 16, 20번을 사용합니다.
 | GND       | 6번     | 모든 LED의 GND |
 
 ### 회로도 이미지  
-![회로도 이미지 예시](./circuit.png)
+![KakaoTalk_20250408_160322183_01](https://github.com/user-attachments/assets/e580c678-2405-4b2a-9f6c-c01c9df528a3)
+
 
 ## 🧠 코드 설명
 
