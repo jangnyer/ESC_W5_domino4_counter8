@@ -18,14 +18,6 @@ GPIO 핀 12, 16, 20번을 사용합니다.
   - GPIO 16 → 중간 비트
   - GPIO 20 → 최상위 비트 (MSB)
 
-### 핀맵 예시 (왼쪽이 라즈베리파이 핀 번호, 오른쪽은 연결)
-
-| GPIO 번호 | 핀 번호 | 용도       |
-|-----------|---------|------------|
-| GPIO12    | 32번    | LSB LED    |
-| GPIO16    | 36번    | MID LED    |
-| GPIO20    | 38번    | MSB LED    |
-| GND       | 6번     | 모든 LED의 GND |
 
 ### 회로도 이미지  
 ![KakaoTalk_20250408_160322183_01](https://github.com/user-attachments/assets/e580c678-2405-4b2a-9f6c-c01c9df528a3)
