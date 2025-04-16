@@ -1,4 +1,5 @@
 # 🔴 4. 버튼이 눌릴 때마다 4-bit 카운터 값 증가시키기
+https://youtu.be/huLmzw4uBc0?feature=shared
 
 ## ✅ 설명  
 이 프로젝트는 버튼이 눌릴 때마다 **4비트 카운터 값이 1씩 증가**하고,  

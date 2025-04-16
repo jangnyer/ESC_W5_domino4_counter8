@@ -1,4 +1,5 @@
 # 🔵 3. 버튼이 눌리면 domino4 1회 실행하기
+https://youtu.be/huLmzw4uBc0?feature=shared
 
 ## ✅ 설명  
 이 프로젝트는 버튼이 눌리면 **도미노처럼 4개의 LED가 순서대로 1초 간격으로 켜졌다 꺼지는** 애니메이션을 한 번 실행합니다.

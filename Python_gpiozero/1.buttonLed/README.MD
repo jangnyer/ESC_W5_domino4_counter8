@@ -1,4 +1,5 @@
 # 🟢 1. 버튼이 눌린 동안만 LED 켜기
+https://youtu.be/huLmzw4uBc0?feature=shared
 
 ## ✅ 설명  
 이 프로젝트는 버튼이 **눌려 있는 동안만** LED가 켜지고,  
